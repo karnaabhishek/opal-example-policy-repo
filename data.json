@@ -21,6 +21,12 @@
         "ip": "8.8.8.8"
       }
     },
+        "pragyan": {
+      "roles": ["customer"],
+      "location": {
+        "country": "US",
+        "ip": "8.8.8.8"
+      },
         "pradip": {
       "roles": ["employee", "billing"],
       "location": {
@@ -59,6 +65,10 @@
       },
       {
         "action": "adopt",
+        "type": "cat"
+      },
+            {
+        "action": "write",
         "type": "cat"
       }
     ],
