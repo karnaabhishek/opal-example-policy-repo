@@ -1,48 +1,37 @@
 {
   "users": {
     "alice": {
-      "roles": ["admin"],
+      "roles": [
+        "admin"
+      ],
       "location": {
         "country": "US",
         "ip": "8.8.8.8"
       }
     },
     "bob": {
-      "roles": ["employee", "billing"],
+      "roles": [
+        "employee",
+        "billing"
+      ],
       "location": {
         "country": "US",
         "ip": "8.8.8.8"
       }
     },
-    "abhishek": {
-      "roles": ["employee", "billing"],
-      "location": {
-        "country": "US",
-        "ip": "8.8.8.8"
-      }
-    },
-        "pragyan": {
-      "roles": ["customer"],
-      "location": {
-        "country": "US",
-        "ip": "8.8.8.8"
-      },
-        "pradip": {
-      "roles": ["employee", "billing"],
-      "location": {
-        "country": "US",
-        "ip": "8.8.8.8"
-      }
-    },
-     "sunil": {
-      "roles": ["guest"],
+    "sunil": {
+      "roles": [
+        "guest"
+      ],
       "location": {
         "country": "US",
         "ip": "8.8.8.8"
       }
     },
     "eve": {
-      "roles": ["customer"],
+      "roles": [
+        "customer"
+      ],
       "location": {
         "country": "US",
         "ip": "8.8.8.8"
@@ -65,10 +54,6 @@
       },
       {
         "action": "adopt",
-        "type": "cat"
-      },
-            {
-        "action": "write",
         "type": "cat"
       }
     ],
@@ -101,14 +86,14 @@
       }
     ],
     "guest": [
-     {
-       "action": "read",
-       "type": "cat"
-     },
-     {
-       "action": "read",
-       "type": "finance"
-     }
+      {
+        "action": "read",
+        "type": "cat"
+      },
+      {
+        "action": "read",
+        "type": "finance"
+      }
     ]
   }
 }
