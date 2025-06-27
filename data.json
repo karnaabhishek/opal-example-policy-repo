@@ -28,6 +28,15 @@
         "ip": "8.8.8.8"
       }
     },
+    "abhishek": {
+      "roles": [
+        "guest"
+      ],
+      "location": {
+        "country": "US",
+        "ip": "8.8.8.8"
+      }
+    },
     "eve": {
       "roles": [
         "customer"
